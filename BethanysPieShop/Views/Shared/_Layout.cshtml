@@ -7,7 +7,9 @@
     <link href='https://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
     <script src="~/lib/jquery/jquery.js"></script>
     <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     <link href="~/css/site.css" rel="stylesheet" />
+
     <base href="/" />
 </head>
 <body>
@@ -28,7 +30,9 @@
 
                     <div class="collapse navbar-collapse" id="navbarCollapse">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <vc:category-menu></vc:category-menu>
                         </ul>
+                        <vc:shopping-cart-summary></vc:shopping-cart-summary>
                     </div>
                 </div>
             </nav>
